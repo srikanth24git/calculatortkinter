@@ -84,4 +84,5 @@ Calculator/
 4. Run the command:
 
 ```bash
-python calculator.py
+Calculator(miniproject).py
+
