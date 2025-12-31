@@ -1,31 +1,3 @@
-"""                                                         MINI PROJECT                                            """
-
-"""
-GUI Calculator Application
-A Tkinter-based Desktop Application
-What is Tkinter?
-Tkinter is Python's built-in library for creating Graphical User Interface (GUI)
-applications.
-It provides widgets like Window, Button, Entry, Label, etc.
-It follows an event-driven programming model (code runs when a user clicks something).
-
-Purpose of this program:
-Creates a Calculator GUI 
-Allows user to:
-    Enter numbers and operators
-    Perform arithmetic calculations
-    Clear the input
-Uses python's eval() function to evaluate mathematical expressions.
-
-Key concepts used:
-Concept                 Description
-Tkinter widgets         Tk, Entry, Button
-Event Handling          Button click actions
-Lambda functions        Passing button values
-Grid Layout             Positioning UI elements
-Exception handling      Handling invalid expressions
-
-"""
 import tkinter as tk    #Imports tkinter module tk is an alias for easy access
 
 def press(v):
@@ -120,6 +92,7 @@ tk.Button(
 ).grid(row=r, column=0, columnspan=4, pady=8)
 
 root.mainloop()     #Keeps the window running 
+
 
 
 
